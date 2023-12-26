@@ -1,1 +1,46 @@
 /* mine custom css */
+.bg-hero {
+  background-image: url('https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570533/astrologer-ys/x8yp0mpy46bckm9qqgo2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-kundali {
+  background-image: url('https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570530/astrologer-ys/rsynfpfcm4k8qrmlw1gu.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-intro {
+  background-image: url('https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570516/astrologer-ys/hkmgbarenwyb5matqow2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-banner {
+  background-image: url('https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570621/astrologer-ys/thhsshgni9dpdftmk79e.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* CSS for scrollbar */
+/* Hide the default scrollbar in WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}

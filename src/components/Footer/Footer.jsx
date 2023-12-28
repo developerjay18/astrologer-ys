@@ -4,7 +4,7 @@ import { footerImg, socialLinks } from './data';
 
 function Footer() {
   return (
-    <div className="bg-black text-white font-poppins">
+    <div className="bg-hero text-white font-poppins">
       <div className="container px-5 lg:px-10 mx-auto py-10 flex flex-col">
         {/* upper  */}
         <div className="upper">

@@ -70,4 +70,6 @@ const LGTestData = [
   ],
 ];
 
-export { LGTestData };
+const smallTestData = [].concat(...LGTestData);
+
+export { LGTestData, smallTestData };

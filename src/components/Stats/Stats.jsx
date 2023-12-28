@@ -50,12 +50,12 @@ function Stats() {
           {statsData.map((data) => (
             <div
               id="count-up-section"
-              className="text-center font-poppins lg-text-left w-[40%] border md:w-[50%] lg:w-[20%] flex"
+              className="text-center font-poppins lg-text-left lg:w-[20%] flex"
               key={data.number}
             >
               {isVisible && (
                 <div className="flex flex-col gap-6 md:py-5 lg:py-0">
-                  <div className=" text-4xl lg:text-6xl text-gradient font-semibold ">
+                  <div className=" text-5xl lg:text-6xl text-gradient font-semibold ">
                     <span>
                       <CountUp
                         start={0}
@@ -66,7 +66,7 @@ function Stats() {
                     </span>
                     <span>{data.extra}</span>
                   </div>
-                  <div className="text-2xl md:text-3xl font-hindi capitalize font-semibold">
+                  <div className="text-2xl md:text-3xl font-hindi capitalize font-semibold px-20 lg:px-0">
                     {data.title}
                   </div>
                 </div>

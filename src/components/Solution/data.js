@@ -63,4 +63,6 @@ const LGSolData = [
   ],
 ];
 
-export { LGSolData };
+const smallSolData = [].concat(...LGSolData);
+
+export { LGSolData, smallSolData };

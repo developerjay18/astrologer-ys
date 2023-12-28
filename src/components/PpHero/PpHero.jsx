@@ -5,14 +5,14 @@ function PpHero() {
   return (
     <div>
       {/* upper  */}
-      <div className="upper pt-[12rem] px-20 font-hindi">
-        <h3 className="text-5xl text-center font-bold">
+      <div className="upper pt-[12rem] px-5 lg:px-20 font-hindi">
+        <h3 className="text-5xl text-center font-bold leading-[4rem]">
           एस्ट्रो बाय योगेश प्राइवेसी पॉलिसी:
         </h3>
         <div className="liner h-[1px] my-5 bg-black"></div>
       </div>
       {/* lower  */}
-      <div className="lower px-[10rem] py-10 flex flex-col gap-10">
+      <div className="lower px-5 lg:px-[10rem] py-10 flex flex-col gap-10">
         {/* one  */}
         <div className="text-xl flex flex-col gap-5">
           <p>

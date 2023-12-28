@@ -19,7 +19,7 @@ import {
 
 function Home() {
   return (
-    <div>
+    <div className='max-w-[100vw] overflow-hidden'>
       <ScrollToTop />
       <Navbar />
       <Heros />

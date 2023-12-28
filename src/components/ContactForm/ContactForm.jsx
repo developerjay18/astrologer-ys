@@ -43,9 +43,9 @@ function ContactForm() {
   };
 
   return (
-    <div className="bg-kundali px-20 py-10 flex contact">
+    <div className="bg-kundali px-5 lg:px-20 py-24 flex contact flex-col lg:flex-row">
       {/* left  */}
-      <div className="left w-[50%] flex flex-col gap-7">
+      <div className="left lg:w-[50%] flex flex-col gap-7">
         {/* upper  */}
         <div className="upper">
           <h3 className="text-5xl font-bold">हमारे साथ सम्पर्क में रहें!</h3>
@@ -89,10 +89,10 @@ function ContactForm() {
         </div>
       </div>
       {/* right  */}
-      <div className="right w-[50%]">
+      <div className="right lg:w-[50%]">
         <form
           action=""
-          className="w-[90%] ml-auto flex flex-col gap-10 pt-10"
+          className="lg:w-[90%] ml-auto flex flex-col gap-10 pt-10"
           ref={form}
           onSubmit={handleSubmit}
         >
@@ -137,7 +137,7 @@ function ContactForm() {
           </div>
           <button
             type="submit"
-            className="bg-black w-[35%] text-white px-10 text-xl py-2"
+            className="bg-black w-[35%] text-white lg:px-10 text-xl py-2 text-center"
           >
             Submit
           </button>

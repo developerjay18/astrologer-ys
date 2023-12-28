@@ -12,7 +12,7 @@ function Product({ imgUrl, heading, content, buttonTxt }) {
       {/* lower  */}
       <div className="lower font-hindi mt-4">
         {/* l-up  */}
-        <div className="l-up bg-white py-3 px-5 flex flex-col gap-3 min-h-[22vh]">
+        <div className="l-up bg-white py-3 px-5 flex flex-col gap-3 lg:min-h-[22vh]">
           <div className="">
             <h3 className="text-2xl font-bold font-hindi">{heading}</h3>
             <div className="liner w-[58%] h-[1px] bg-gray-400"></div>

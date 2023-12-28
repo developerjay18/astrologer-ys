@@ -1,12 +1,11 @@
 import React from 'react';
 import { logo } from '../../assets';
-import { navLinks } from './data';
-import { Link, animateScroll } from 'react-scroll';
-import { Link as RLink } from 'react-router-dom';
+import { navLinks2 } from './data';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar2() {
   return (
-    <header className="absolute top-0">
+    <header className="absolute top-0 bg-black">
       <nav>
         {/* upper   */}
         <div className="upper px-20 bg-[#f6f6f6] flex items-center gap-3 justify-center">
@@ -25,16 +24,16 @@ function Navbar() {
         <div className="lower px-20 py-5 bg-transparent flex justify-between items-center">
           {/* left  */}
           <div className="left w-[10%]">
-            <RLink to={'/'}>
+            <Link to={'/'}>
               <img src={logo} alt="" />
-            </RLink>
+            </Link>
           </div>
           {/* right  */}
           <div className="right text-white">
             <ul className="flex font-poppins gap-8 text-xl">
-              {navLinks.map((item, index) => (
+              {navLinks2.map((item, index) => (
                 <li key={index} className="cursor-pointer capitalize">
-                  <Link to={item.slug}> {item.name}</Link>
+                  <Link to={item.slug}>{item.name}</Link>
                 </li>
               ))}
             </ul>
@@ -45,4 +44,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar2;

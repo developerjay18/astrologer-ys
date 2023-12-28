@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function Intro() {
   return (
@@ -12,9 +14,11 @@ function Intro() {
           यदि आप जीवन में फंसा हुआ महसूस कर रहे हैं और नहीं जानते कि क्या करें,
           तो योगेश शर्मा जी से कॉल पर बात करना एक अच्छा विचार है।
         </p>
-        <button className="bg-white w-[40%] text-black px-8 py-2 text-xl font-semibold">
-          कॉल बुक करे ₹199
-        </button>
+        <Link to={buttonLink} className="w-[40%]">
+          <button className="bg-white w-full text-black px-8 py-2 text-xl font-semibold">
+            कॉल बुक करे ₹199
+          </button>
+        </Link>
       </div>
       {/* right  */}
       <div className="right w-[50%]">

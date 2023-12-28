@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function ServiceTwo() {
   return (
@@ -11,9 +13,11 @@ function ServiceTwo() {
           में बात करने के लिए योगेश शर्मा से व्यक्तिगत रूप से मिल सकते हैं। इस
           तरह, आप सहायता प्राप्त कर सकते हैं और अपना जीवन आसान बना सकते हैं।
         </p>
-        <button className="bg-white w-[40%] text-black px-8 text-xl py-2 font-semibold">
-          अप्पोइन्मेंट बुक करे
-        </button>
+        <Link to={buttonLink} className="w-[40%]">
+          <button className="bg-white w-full text-black px-8 text-xl py-2 font-semibold">
+            अप्पोइन्मेंट बुक करे
+          </button>
+        </Link>
       </div>
       {/* right  */}
       <div className="right w-[50%]">

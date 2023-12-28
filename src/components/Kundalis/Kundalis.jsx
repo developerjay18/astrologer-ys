@@ -1,5 +1,7 @@
 import React from 'react';
 import points from './data';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function Kundalis() {
   return (
@@ -28,9 +30,11 @@ function Kundalis() {
             </li>
           ))}
         </ul>
-        <button className="bg-black w-[43%] text-white px-8 py-2 text-xl font-semibold">
-          कुंडली बनवाए ₹199
-        </button>
+        <Link to={buttonLink} className='w-[43%]'>
+          <button className="bg-black w-full text-white px-8 py-2 text-xl font-semibold">
+            कुंडली बनवाए ₹199
+          </button>
+        </Link>
       </div>
     </div>
   );

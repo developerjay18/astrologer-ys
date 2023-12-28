@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function ServiceOne() {
   return (
@@ -21,9 +23,11 @@ function ServiceOne() {
           सकारात्मक और आपकी खुशहाली के लिए अच्छा बनाने के लिए वास्तु और ज्योतिष
           का संयोजन करते हैं। सकारात्मक बदलावों का अनुभव करें!
         </p>
-        <button className="bg-black w-[35%] text-white text-lg px-8 py-2 font-semibold">
-          अप्पोइन्मेंट बुक करे
-        </button>
+        <Link to={buttonLink} className="w-[35%]">
+          <button className="bg-black w-full text-white text-lg px-8 py-2 font-semibold">
+            अप्पोइन्मेंट बुक करे
+          </button>
+        </Link>
       </div>
     </div>
   );

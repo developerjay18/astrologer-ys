@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from './Product';
 import { limitedProducts } from './data';
+import { Link } from 'react-router-dom';
 
 function Products() {
   return (
@@ -25,14 +26,16 @@ function Products() {
       </div>
       {/* lower  */}
       <div className="lower px-20 flex justify-center">
-        <button className="w-[30%] bg-black text-white py-4 flex gap-4 justify-center items-center rounded-full">
-          <span className="">
-            <i className="fa-solid fa-cart-shopping fa-2xl"></i>
-          </span>
-          <span className="text-xl font-semibold">
-            सभी प्रकार के यंत्र और रत्न ख़रीदे
-          </span>
-        </button>
+        <Link to={'/products'} className='w-[30%]'>
+          <button className="w-full bg-black text-white py-4 flex gap-4 justify-center items-center rounded-full">
+            <span className="">
+              <i className="fa-solid fa-cart-shopping fa-2xl"></i>
+            </span>
+            <span className="text-xl font-semibold">
+              सभी प्रकार के यंत्र और रत्न ख़रीदे
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );

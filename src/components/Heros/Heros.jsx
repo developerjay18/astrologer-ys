@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function Heros() {
   return (
@@ -42,12 +44,16 @@ function Heros() {
         </p>
         {/* buttons  */}
         <div className="flex items-center gap-10">
-          <button className="bg-white text-black px-8 py-2 font-semibold">
-            कंसल्टेशन बुक करे
-          </button>
-          <button className="bg-transparent border-2 px-12 py-2 font-semibold">
-            कुंडली बनवाए{' '}
-          </button>
+          <Link to={buttonLink}>
+            <button className="bg-white text-black px-8 py-2 font-semibold">
+              कंसल्टेशन बुक करे
+            </button>
+          </Link>
+          <Link to={buttonLink}>
+            <button className="bg-transparent border-2 px-12 py-2 font-semibold">
+              कुंडली बनवाए{' '}
+            </button>
+          </Link>
         </div>
       </div>
       {/* right  */}

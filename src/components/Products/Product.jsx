@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { buttonLink } from '../../assets';
 
 function Product({ imgUrl, heading, content, buttonTxt }) {
   return (
-    <div>
+    <div className="mt-10">
       {/* upper  */}
       <div className="upper">
         <img src={imgUrl} alt="" />
@@ -18,9 +20,11 @@ function Product({ imgUrl, heading, content, buttonTxt }) {
           <p className="font-normal">{content}</p>
         </div>
         {/* l-down  */}
-        <div className="l-down mt-2 bg-black text-white text-center py-2 font-semibold text-lg">
-          <button>{buttonTxt}</button>
-        </div>
+        <Link to={buttonLink}>
+          <div className="l-down mt-2 bg-black text-white text-center py-2 font-semibold text-lg">
+            <button>{buttonTxt}</button>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -17,4 +17,23 @@ const navLinks = [
   },
 ];
 
-export { navLinks };
+const navLinks2 = [
+  {
+    name: 'home',
+    slug: '/',
+  },
+  {
+    name: 'services',
+    slug: '/',
+  },
+  {
+    name: 'about',
+    slug: '/',
+  },
+  {
+    name: 'contact',
+    slug: '/',
+  },
+];
+
+export { navLinks, navLinks2 };

@@ -9,19 +9,31 @@ import {
   Service,
   Products,
   Banner,
+  Stats,
+  Info,
+  Testimonials,
+  Solution,
+  ContactForm,
+  Location,
 } from '../../components/index';
 
 function Home() {
   return (
     <div>
-      <Navbar />
       <ScrollToTop />
+      <Navbar />
       <Heros />
       <Kundalis />
       <Intro />
       <Service />
       <Products />
       <Banner />
+      <Stats />
+      <Testimonials />
+      <Info />
+      <Solution />
+      <ContactForm />
+      <Location />
       <Footer />
     </div>
   );

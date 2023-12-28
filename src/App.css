@@ -23,6 +23,12 @@
   background-position: center;
 }
 
+.bg-products {
+  background-image: url('https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570623/astrologer-ys/vxebei6c3ukakvhobwys.png');
+  background-size: cover;
+  background-position: center;
+}
+
 /* CSS for scrollbar */
 /* Hide the default scrollbar in WebKit-based browsers */
 ::-webkit-scrollbar {

@@ -17,8 +17,8 @@ function Testimonials() {
     <div className="bg-intro px-5 lg:px-20 text-white py-10">
       {/* upper  */}
       <div className="upper text-white flex flex-col justify-center items-center gap-5">
-        <h3 className="text-5xl lg:text-6xl font-semibold font-poppins text-center lg:text-left">
-          What our client says
+        <h3 className="text-5xl lg:text-6xl font-semibold font-hindi text-center lg:text-left">
+          हमारे क्लाइंट क्या कहते है
         </h3>
         <div className="liner w-[65%] lg:w-[48%] h-1 bg-white"></div>
       </div>

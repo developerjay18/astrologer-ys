@@ -20,14 +20,14 @@ const limitedProducts = [
       'https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570597/astrologer-ys/locoes3spg7122mw8zdi.png',
     heading: 'राहु - गोमेदक',
     content: 'जिनकी कुंडली में राहु दोष हो, या राहु की दशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे',
+    buttonTxt: 'अभी ऑर्डर करे',
   },
   {
     imgUrl:
       'https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570606/astrologer-ys/msrhaxb6cz89q9lyrubn.png',
     heading: 'मंगल - मूंगा',
     content: 'जिनकी कुंडली में मंगल दोष हो या राशि रत्न मंगल हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
 ];
 

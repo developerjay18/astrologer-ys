@@ -22,7 +22,7 @@ function Stats() {
 
   const statsData = [
     {
-      number: '20',
+      number: '25',
       extra: '+',
       title: 'वर्षो का अनुभव ज्योतिषविद्या में',
     },

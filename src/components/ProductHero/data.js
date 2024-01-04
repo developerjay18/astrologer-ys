@@ -78,7 +78,7 @@ const allProducts = [
       'https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570597/astrologer-ys/locoes3spg7122mw8zdi.png',
     heading: 'राहु - गोमेदक',
     content: 'जिनकी कुंडली में राहु दोष हो, या राहु की दशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे',
+    buttonTxt: 'अभी ऑर्डर करे',
   },
   {
     imgUrl:
@@ -86,7 +86,7 @@ const allProducts = [
     heading: 'केतु - वैदूर्य',
     content:
       'जिनकी कुंडली में केतु की दशा चल रही हो , या केतु लग्नेश हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे',
+    buttonTxt: 'अभी ऑर्डर करे',
   },
   {
     imgUrl:
@@ -94,7 +94,7 @@ const allProducts = [
     heading: 'चंद्र मोती',
     content:
       'जिनकी कुंडली में चंद्र लग्नेश हो या चंद्र की महादशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
   {
     imgUrl:
@@ -102,14 +102,14 @@ const allProducts = [
     heading: 'सूर्य - मानेक',
     content:
       'जिनकी कुंडली में सूर्य लग्नेश हो या सूर्य की महादशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
   {
     imgUrl:
       'https://res.cloudinary.com/practice-jay-cloud/image/upload/v1703570606/astrologer-ys/msrhaxb6cz89q9lyrubn.png',
     heading: 'मंगल - मूंगा',
     content: 'जिनकी कुंडली में मंगल दोष हो या राशि रत्न मंगल हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
   {
     imgUrl:
@@ -117,7 +117,7 @@ const allProducts = [
     heading: 'बुध - पन्ना',
     content:
       'जिनकी कुंडली में राशि गृह बुध हो ,अथवा बुध की महादशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
   {
     imgUrl:
@@ -125,7 +125,7 @@ const allProducts = [
     heading: 'गुरु - पुखराज',
     content:
       'जिनकी कुंडली में राशि गृह गुरु हो ,अथवा गुरु की महादशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
   {
     imgUrl:
@@ -133,7 +133,7 @@ const allProducts = [
     heading: 'शुक्र - हीरा',
     content:
       'जिनकी कुंडली में राशि गृह शुक्र हो, अथवा शुक्र की महादशा चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे',
+    buttonTxt: 'अभी ऑर्डर करे',
   },
   {
     imgUrl:
@@ -141,7 +141,7 @@ const allProducts = [
     heading: 'शनि - नीलम',
     content:
       'जिनकी कुंडली में राशि गृह शनि हो, अथवा शनि की साढ़े साती चल रही हो उनके लिए ',
-    buttonTxt: 'अभी ऑर्डर दे ',
+    buttonTxt: 'अभी ऑर्डर करे ',
   },
 ];
 

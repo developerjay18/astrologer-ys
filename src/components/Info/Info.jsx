@@ -6,11 +6,11 @@ function Info() {
   return (
     <div className="px-5 lg:px-20 py-10 bg-kundali text-black flex font-hindi justify-evenly about flex-col lg:flex-row gap-10 lg:gap-0">
       {/* left  */}
-      <div className="left lg:w-[45%] flex flex-col gap-8 text-center lg:text-left">
+      <div className="left lg:w-[45%] flex flex-col gap-8 text-left">
         {/* upper  */}
         <div className="upper flex flex-col gap-5">
           <h3 className="text-4xl font-bold">हमारे बारे में</h3>
-          <div className="liner mx-auto lg:mx-0 w-[80%] h-[2px] bg-black"></div>
+          <div className="liner lg:mx-0 w-[80%] h-[2px] bg-black"></div>
           <p className="text-xl font-normal lg:pr-14">
             एस्ट्रो बाय योगेश में आपका स्वागत है, जहां हम सभी के साथ दयालुता और
             समझदारी से पेश आते हैं। योगेश शर्मा अहमदाबाद में एक अनुभवी ज्योतिषी
@@ -35,19 +35,19 @@ function Info() {
       </div>
       {/* right  */}
       <div className="right lg:w-[45%] flex flex-col justify-end gap-8">
-        <h3 className="text-4xl font-bold text-center lg:text-left">
+        <h3 className="text-4xl font-bold text-left">
           सकारात्मक परिवर्तन और व्यक्तिगत विकास के लिए आपका मार्ग
         </h3>
-        <p className="text-xl font-normal lg:pr-10 text-center lg:text-left">
+        <p className="text-xl font-normal lg:pr-10 text-left">
           यहां एस्ट्रो बाय योगेश में, हम सभी के साथ सम्मानपूर्वक व्यवहार करने
           में विश्वास करते हैं। योगेश शर्मा कठिन समय में आपका मार्गदर्शन करने और
           समाधान खोजने में मदद करने के लिए यहां हैं।
         </p>
-        <p className="text-xl font-normal lg:pr-10 text-center lg:text-left">
+        <p className="text-xl font-normal lg:pr-10 text-left">
           सकारात्मक बदलाव और व्यक्तिगत विकास की यात्रा पर हमारे साथ जुड़ें। आइए
           मिलकर आपके जीवन को थोड़ा उज्जवल बनाएं!
         </p>
-        <p className="text-xl font-normal lg:pr-10 text-center lg:text-left">
+        <p className="text-xl font-normal lg:pr-10 text-left">
           कंसल्टेशन बुक करे और अपनी समस्याओ का समाधान पाए |
         </p>
         <Link to={buttonLink} className="mx-auto lg:mx-0 w-[70%] lg:w-[45%]">

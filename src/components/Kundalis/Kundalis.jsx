@@ -55,7 +55,7 @@ function Kundalis() {
           </ul>
           <Link to={buttonLink} className="mx-auto lg:mx-0 w-[80%] lg:w-[43%]">
             <button className="bg-black w-full text-white px-8 py-2 text-xl font-semibold">
-              कुंडली बनवाए ₹199
+              कुंडली बनवाए ₹1100
             </button>
           </Link>
         </div>

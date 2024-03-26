@@ -39,7 +39,7 @@ function Intro() {
           </p>
           <Link to={buttonLink} className="mx-auto lg:mx-0 w-[70%] lg:w-[40%]">
             <button className="bg-white w-full text-black px-8 py-2 text-xl font-semibold">
-              कॉल बुक करे ₹199
+              कॉल बुक करे ₹500
             </button>
           </Link>
         </div>
